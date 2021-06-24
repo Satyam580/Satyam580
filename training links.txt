@@ -1,0 +1,7 @@
+https://github.com/react-grid-layout/react-draggable
+
+https://cognizantcorp.webex.com/meet/sneeha.l
+
+https://www.npmjs.com/package/mongodb
+
+https://docs.mongodb.com/manual/reference/sql-comparison/

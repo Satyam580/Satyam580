@@ -1,0 +1,284 @@
+
+
+.cardStyle{
+    position:relative;
+    height:25rem; 
+}
+.ImagetextStyle {
+    position:absolute;
+    text-align: center;
+    top:55%;
+    transform:scale(1.05); 
+    /* left:50%; */
+    /* transform: translate(50%, 0);  */
+   
+}
+.ImageHeaderStyle {
+    font-size: 4vw;
+    
+}
+.ImageHeaderStyle:hover{ 
+    transform:scale(1.05); 
+}
+.textStyle{ 
+    text-align: center;
+    font-size: 2vw;
+    
+
+}
+
+
+@media screen and (max-width:600px){
+    .ImageHeaderStyle {
+        font-size: 6vw;
+    }
+    .textStyle{ 
+        text-align: center;
+        font-size: 4vw;
+        display:block;
+    
+    }
+}
+
+#Container{
+   margin-top: 50px;
+ 
+  
+  
+  
+}
+.bg{
+    background-image: url(../Images/background10.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bgColorworkouts{
+    background-color:rgb(243, 251, 252);
+    border:2px solid rgb(145, 142, 142);
+    border-radius: 30px;
+    margin-top:10px
+    
+}
+.bgColorworkouts:hover{ 
+    transform:scaleY(1.05); 
+    transform:scaleX(1.01); 
+}
+.imageSize{
+    width:100px;
+    height:100px;
+    border-radius: 20px;
+}
+.JJtext{
+    font-size: 2.5vw;
+    font-weight: bold;
+    line-height: 0.9;
+    margin-top:20px;
+    
+}
+.JJtime{
+    font-size: 2vw; 
+    opacity:0.9;
+    line-height: 0.9;
+}
+@media screen and (max-width: 700px) {
+    .JJtext{
+        font-weight: bold;
+      font-size: 4vw;
+      
+    }
+    .JJtime{
+        font-size: 4vw; 
+        opacity:0.9;
+        
+    }
+  }  
+
+
+.menuSize{
+    margin: 20px;
+    width:60px;
+    height:60px;
+}
+@media (max-width: 380px) {
+    .menuSize{
+        margin: 20px 0px;
+        width:40px;
+        height:40px;
+      
+    }
+  }
+  @media (max-width: 770px) {
+    .menuSize{
+        margin: 20px 0px;
+        width:50px;
+        height:50px;
+      
+    }
+  } 
+
+.workoutAlign{
+    text-align: center;
+    font-size: 30px;
+}
+.WorkoutHeading{
+    font-style: italic;
+    font-weight: 600;
+    color:rgb(217, 255, 0);
+    text-align: center;
+    font-size: 40px;
+
+}
+/* .WorkoutHeading span:nth-child(1){
+    color:yellow;
+}
+.WorkoutHeading span:nth-child(2){
+    color:red;
+} */
+@media screen and (max-width:400px){
+    .WorkoutHeading{
+        font-style: italic;
+        color:yellow;
+        text-align: center;
+        font-size: 25px;
+    }
+}
+.workoutsScroll{
+    overflow-y: scroll;
+    height: 500px;
+    background-color: rgb(11, 89, 92);
+    padding-top:30px;
+    padding-bottom:20px;
+    border:2px solid rgb(231, 225, 225);
+    
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.workoutsScroll::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .workoutsScroll {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+@media screen and(max-width: 995px){
+    .toggle{
+            display:none;
+        }
+}
+.workoutName{
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 0.9;
+    
+    padding:10px;
+    margin:auto;
+}
+.workoutName:hover{
+    transform:scale(1.05); 
+}
+.workoutName span:nth-child(1){
+    color:rgb(221, 243, 95);
+}
+.workoutName span:nth-child(2){
+    color:rgb(236, 4, 4);
+}
+
+.workoutName1{
+    text-align: center;
+    font-size: 20px;
+    color:rgb(10, 10, 12);
+    font-weight: bold;
+    line-height: 0.9;
+    
+}
+
+.timerStyle{
+    font-size: 40px;
+    padding:0px 10px;
+    border-radius: 20px;
+    color:rgb(248, 8, 8);
+    font-weight:600;
+    background-color: rgb(182, 173, 173);
+    display:inline-block;
+     
+}
+.timerStyle:hover{
+    transform:scale(1.05); 
+}
+.MainImageStyle{
+    height:25rem;
+    width:25rem;
+    animation-name: bottomslide1;
+    animation-duration: 2s;
+}
+@keyframes bottomslide1 {
+    0% {
+      opacity: 0;
+      transform: translateX(100px);
+    }
+    100% {
+      opacity: 0.9;
+      transform: translateX(0px);
+    }
+  }
+.MainImageStyle:hover{
+    transform:scaleY(1.05);
+}
+@media screen and (min-width: 250px) and (max-width: 995px){
+    .MainImageStyle{
+        
+        width:70%;
+        
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .toggle {
+        display:none;
+    }
+   
+}
+@media screen and (min-width: 995px) and (max-width: 1070px){
+    .MainImageStyle{
+        height:18rem;
+        width:18rem;
+        
+    }
+}
+
+@media screen and (max-width:360){
+    .MainImageStyle{
+        height:10rem;
+        width:10rem;
+        
+    }
+}
+
+
+.timer{
+    
+    text-align: center;
+    width:50%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.startButton{
+    padding:10px 40px;
+    margin:10px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.startButton:hover{
+    transform:scale(1.05); 
+}
+.buttonAlign{
+    text-align: center;
+    margin:30px;
+}

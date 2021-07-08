@@ -1,0 +1,46 @@
+.RowStyle{
+    margin-bottom: 20px;
+}
+.conatinerStyle{
+    margin-top: 50px;
+}
+
+.Card-Main-Image-Styleing{
+    height:200px;
+    width: 100%;
+    position:relative;
+   /* opacity:0.9; */
+   /* background: linear-gradient(gray,black); */
+}
+.Card-user-Image-Styleing{
+    height:150px;
+    width: 150px;
+    border-radius:50%;
+    position:absolute;
+    right:30%;
+    border:4px solid rgb(66, 64, 64);
+    
+   
+    
+}
+.Card-bg-image{
+    /* background-image: url(../Images/UserProfile.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; */
+    position:relative;
+}
+.TextStyle{
+    position:absolute;
+    top:45%;
+    left:20%;
+    color:rgb(252, 248, 249);
+}
+.nameStyle{
+    font-size: 2rem;
+}
+.detailsStyle{
+    background: rgb(105, 102, 102);
+    color:white;
+}

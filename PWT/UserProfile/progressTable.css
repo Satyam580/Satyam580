@@ -1,0 +1,19 @@
+.tableScroll{
+    overflow-y: auto;
+    height:300px;
+}
+.tableScroll thead th {
+    position: sticky;
+    background-color: rgb(189, 183, 183);
+    top: 0;
+  }
+/* Hide scrollbar for Chrome, Safari and Opera */
+.tableScroll::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .tableScroll {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }

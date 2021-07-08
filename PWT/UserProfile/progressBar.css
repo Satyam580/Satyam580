@@ -1,0 +1,26 @@
+.spaceing{
+    margin-top:10px;
+}
+.circleBar{
+  width:250px;
+  height:250px;
+}
+.progressBarScroll{
+   
+    overflow-y: scroll;
+    height:250px;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.progressBarScroll::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .progressBarScroll {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+#progressButton{
+  background-color: "rgba(225, 204,230, .3)",
+}

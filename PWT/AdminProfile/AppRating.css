@@ -1,0 +1,21 @@
+#Rating-CardStyle{
+    /* position:relative; */
+    border-radius: 20px;
+    background: white;
+    box-shadow: 20px 20px 60px #d8caca,-20px -20px 60px #e6e2e2;
+}
+.spaceing{
+    margin-top:10px;
+}
+.iconStyling{
+    color:gold;
+}
+.barSpaceing{
+    margin-top:10px;
+}
+.Rating-titleStyle{
+    font-size: 70px;
+}
+.Rating-titleStyle sub{
+    font-size: 30px;
+}

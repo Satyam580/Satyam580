@@ -1,0 +1,13 @@
+.Card-Main-Image-Styleing{
+    height:220px;
+
+}
+.Card-user-Image-Styleing{
+    top:10%;
+}
+#admin-CardStyle{
+    /* position:relative; */
+    border-radius: 50px;
+    background: white;
+    box-shadow: 20px 20px 60px #d8caca,-20px -20px 60px #e6e2e2;
+}

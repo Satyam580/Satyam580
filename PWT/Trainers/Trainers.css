@@ -1,0 +1,126 @@
+.textStyling{
+    font-size: 4.5vw;
+    color:white;
+    margin-top:50px;
+    padding:0;
+    line-height: 1;
+    font-weight: bold;
+    
+}
+@media screen and (max-width:768px){
+  .textStyling{
+    font-size: 6vw;
+  }
+}
+.textStyling:hover{
+    transform:scale(1.05); 
+     transition-duration: 1s; 
+  }
+.linebreak{
+  /* line-break: strict; */
+  word-spacing: 100vw;
+}
+
+
+.textAlign{
+    text-align: center;
+}
+
+.backgroundImage{
+    position: relative;
+    background: 
+      url(../Images/background10.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    color: white;
+    background-attachment: fixed;
+    opacity: 1;
+    margin:10vh 0px ;
+  }
+  .buttonStyle{
+      background-color: #33a57f;
+      color:white;
+      font-weight: bold;
+      padding:10px 15px;
+      border:2px solid #33a57f;
+      border-radius: 10px ;
+  }
+  .buttonStyle:hover{
+    
+      transform:scale(1.05);
+      
+  }
+  .TrainerStyles{
+      margin-top: 50px;
+  }
+  .quote{
+      font-size: 40px;
+  }
+  .AliImage{
+  width: 15%;
+  border-radius: 50%;
+  vertical-align: middle;
+  padding-right: 10px;
+  }
+  .TrainerStyles p{
+      font-size: 20px;
+  }
+  .textSpace1{
+      margin:20px 0px;
+  }
+  .Cardtyles {
+    background-color: rgb(78, 72, 72);
+  }
+  /* .Cardtyles:hover{
+    
+  } */
+  
+  .trainerName{
+      font-size: 27px;
+      line-height: 1;
+  }
+  .trainerName span{
+      font-size: 15px;
+  }
+  .animationCard:hover{
+    transform:scale(1.05); 
+    transition-duration: 1.5s;
+  }
+  @keyframes LRslide { 
+    0% {
+      opacity: 0;
+      transform: translateX(-200px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0px);
+    }
+  }
+  @keyframes RLslide {
+    0% {
+      opacity: 0;
+      transform: translateX(200px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0px);
+    }
+  }
+  .animationLR{
+    animation-name: LRslide;
+    animation-duration: 1.5s;
+  }
+  .animationRL{
+    animation-name: RLslide;
+    animation-duration: 1.5s;
+  }
+  /* .animationLR:hover{
+    animation-name: LRslide;
+    animation-duration: 0.5s;
+  }
+  .animationRL:hover{
+    animation-name: RLslide;
+    animation-duration: 0.5s;
+  } */

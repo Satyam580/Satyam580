@@ -1,0 +1,42 @@
+.CardImg {
+    border-radius: 15px;
+    background-color: black;
+    transition: all 1.0s;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+@keyframes bottomslide {
+    0% {
+      opacity: 0;
+      transform: translateY(200px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+.CardImg:hover{
+    transform:scale(1.05);
+}
+.CardStyles {
+    background-color: black;
+    margin-bottom:50px;
+    position:relative;
+    color:white;
+    font-size: 3rem;
+    animation-name: bottomslide;
+    animation-duration: 2s;
+    
+}
+.CardStyles:hover {
+    animation-name: bottomslide;
+    animation-duration: 2s;
+}
+.Cardtext{
+    position: absolute;
+    bottom: -30px;
+    left: 10%;
+    /* transform: translate(-50%, 0); */
+}
+.Cardtext:hover{
+    transform:scale(1.05);
+}
